@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    height: auto;
+    margin: 30px auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.todo {
+    margin: 15px 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+.todo input {
+    margin-right: 5px;
+}
+
+.todo span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.todo .edit-and-delete {
+    display: flex;
+    cursor: pointer;
+}
+
+.delete-all {
+    padding: 10px;
+    cursor: pointer;
+}
